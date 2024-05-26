@@ -1,13 +1,37 @@
 body{
- background-color:rgba(135, 136, 137, 0.485);
+ background-color:rgba(151, 152, 153, 0.485);
 
 }
 
-.dropdown:hover>.dropdown-menu {
+
+.mn.dropdown:hover >.dropdown-menu  {
     display: block;
+    transform: translateX(-100px);
+    
+    
+    
   }
 
 .dropdown>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
-      pointer-events: none;
+ pointer-events: none;
   }
+.man{
+  justify-content: space-around;
+  
+}
+.but{
+  border: white;
+  background-color: white;
+}
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+ 
+}
+.bad{
+  font-size: 8px;
+  transform: translateY(10px);
+  transform: translateX(-50px);
+  bottom: 40px;
+  align-self: end;
+}
