@@ -1,5 +1,5 @@
 body{
- background-color:rgba(151, 152, 153, 0.485);
+ background-color:rgba(197, 198, 198, 0.485);
 
 }
 
@@ -34,4 +34,19 @@ body{
   transform: translateX(-50px);
   bottom: 40px;
   align-self: end;
+}
+.war{
+  display: flex-inline;
+  justify-content: center;
+  align-items: center;
+  
+}
+.hov{
+  width:110px;
+  height: 130px;
+}
+.war:hover>.hov{
+  transition: -1ms;
+  width:120px;
+  height: 130px;
 }
