@@ -46,7 +46,20 @@ body{
   height: 130px;
 }
 .war:hover>.hov{
-  transition: -1ms;
-  width:120px;
-  height: 130px;
+  transform:scale(1.1,1.1);
+}
+.jus{
+  justify-content: center;
+  align-items: center;
+}
+.space {
+  justify-content: space-between;
+  
+}
+
+ .col-12:hover>.ho{
+  transform:scale(1.1,1.1);
+}
+.col-6:hover>.ho{
+  transform:scale(1.1,1.1);
 }
