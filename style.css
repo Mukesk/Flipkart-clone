@@ -1,5 +1,5 @@
 body{
- background-color:rgba(197, 198, 198, 0.485);
+ background-color:#e5e6e7;
 
 }
 
@@ -62,4 +62,16 @@ body{
 }
 .col-6:hover>.ho{
   transform:scale(1.1,1.1);
+}
+.dd{
+  flex-direction: column;
+}
+.fonts{
+  font-size: 13px;
+}
+.dd a{
+  text-decoration:none;
+}
+.dd a:hover{
+  text-decoration:underline;
 }
